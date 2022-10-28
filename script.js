@@ -12,7 +12,8 @@ let getUser = () => {
             <h2>${data.first_name} ${data.last_name}</h2>
             <h3>${data.employment.title}</h3>
             <h4><i class="fa-solid fa-location-dot"></i> ${data.address.city}</h4>
-            <
+            <h4>${data.email}</h4>
+
             `;
         
             let randomColor = "#" + ((Math.random() * 0xffffff) << 0).toString(16).padStart(6, "0");
